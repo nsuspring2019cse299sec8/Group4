@@ -3,7 +3,17 @@
   <head>
     <title>Surprice Celebration | Home</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
   </head>
 
   <body>
@@ -27,6 +37,107 @@
         <button class="btn btn-success" type="submit">Search</button>
       </form>
     </nav>
+    <!-- Top Bar Ends -->
+
+    <!-- Menu Bar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Logo</a>
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About US</a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Services
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Birthday Celebration</a>
+            <a class="dropdown-item" href="#">Marriage Anniversary</a>
+            <a class="dropdown-item" href="#">Other</a>
+          </div>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Products
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Cakes</a>
+            <a class="dropdown-item" href="#">Gifts</a>
+            <a class="dropdown-item" href="#">Cards</a>
+            <a class="dropdown-item" href="#">Others</a>
+          </div>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Portfolio
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Birthday Celebration</a>
+            <a class="dropdown-item" href="#">Marriage Anniversary</a>
+            <a class="dropdown-item" href="#">Others</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact US</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Menu Bar Ends -->
+
+    <!-- Overview -->
+    <div class="">
+      <h1>A little Info About Us</h1>
+    </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/1.jpg" alt="Surprise Birthday Celebration" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>Surprise Birthday Celebration</h3>
+            <p>We organize surprise birthday parties for your loved ones</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/2.jpg" alt="Surprise Anniversary Celebration" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>Surprise Anniversary Celebration</h3>
+            <p>We organize surprise anniversary parties for your loved ones</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/3.jpg" alt="New York" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>Others</h3>
+            <p>Besides, we also organize any party/function on behalf of you that you wanna throw</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <!-- Overview Ends -->
 
     <!-- script -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
