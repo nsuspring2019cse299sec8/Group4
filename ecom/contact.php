@@ -79,8 +79,7 @@
 
                           <div class="col-lg-12 text-center">
                               <div id="success"></div>
-                              <button name="submit_mail" type="submit" class="btn btn-info">Send Message</button>
-                          </div>
+                              <button name="submit_mail" type="submit" class="btn btn-info">Send Message</button> <!--located at frontend functions.php -->
 
                       </div>
               </form>
